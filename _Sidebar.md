@@ -1,2 +1,2 @@
 [[Home|Home]]<BR>
-[[Features|]]<BR>
+[[Features/Limitations|]]<BR>
