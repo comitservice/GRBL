@@ -13,7 +13,7 @@ Controls and displays are grouped into sub panels. These get enabled/disabled de
 
 
 ### Grbl
-Grbl is the basis for many CNC machines. It is the basis of many controllers. It's enhancements are managed in a controlled manner, leading Grbl to be a stable and predictable high performance GCode interpreter. its feature set is strictly limited, in part due to the constraints of the Atmel 328P that it runs on.  Currently maintained by Sonny Jeon (@chamnit). The excellent wiki made the job of coding the interface much simpler.
+Grbl is the basis for many CNC machines. It is the basis of many controllers. It's enhancements are managed in a controlled manner, leading Grbl to be a stable and predictable high performance GCode interpreter. its feature set is strictly limited, in part due to the constraints of the Atmel 328P that it runs on.  Currently maintained by Sonny Jeon (@chamnit). His support and feedback helped focus the development of Grbl-Panel. The excellent Grbl wiki also made the job of coding the interface much simpler.
 
 ### Why VB.Net and Visual Studio
 Microsoft provides free, extremely well-documented professional quality tools. The visual development environment enabled me to build a fully functional Panel in less than a week of 9-5 effort. That is while learning the details of Delegates, cross thread calls from Serial IO to GUI, the many properties of the controls in use etc. The code presently targets .Net 4.5 which I realize might cause headaches for those wanting to run this with Mono or virtual machines such as Parallel. One of my Todo's is to revert back to .Net 3.5 which should provide less difficulty for Mono.
