@@ -2,7 +2,7 @@
 Yes, another one. I needed more definite control over my CNC router. And I wanted it adaptable, configurable and understandable.
 This panel treats the CNC machine as a generic device. The jog buttons are arranged in a way that reflects a fixed spindle milling machine. Many items are configurable and those changes persist when you close the Panel.
 The code is VB.Net, created using Visual Studio 2013 Express targeting .Net 4.5
-
+![Main Panel](https://github.com/gerritv/Grbl-Panel/blob/master/panel3Capture.JPG)
 ## Why Panel?
 Grbl needs a separate application, something to feed it gcode from a file, provide a means of jogging to set up workpieces on the table, change tools etc. The Panel controls the setup, loading of a file, jogging, setting offsets for job to be run, the interface between human and machine. These are all functions that interface via serial interface to Grbl.  Many machines have a physical panel that has buttons and displays for these functions. For Grbl, we use a soft panel. Other implementations are Universal Code Sender, Grbl-Homing and Grbl Controller. The approach taken instead for this implementation has more in common with Fanuc, Haas and Mach3 and LinuxCNC.
 
