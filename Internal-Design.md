@@ -1,0 +1,1 @@
+This page describes the internals of Grbl-Panel for those who wish to understand or enhance it.
