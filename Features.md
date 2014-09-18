@@ -4,6 +4,8 @@
 * Provides configurable gcode blocks for Jog and Workspace 0
 * Provides individual 0 set buttons for each Workspace Axis
 * Sub panels and controls interlock to prevent inadvertent sending of commands
+* Provides setting, retrieving (from Grbl), loading and saving Work Offsets
+* Provides key repeat for Jogging with configurable repeat rate
 * Settings and preferences are persistent between executions
 * Makes no changes to Gcode
 
@@ -11,12 +13,10 @@
 * Does not change Gcode, e.g. no trimming of decimal places
 * Does not remove unsupported Gcodes
 * Does not yet support Grbl's Advanced Send protocol
-* Jog buttons do not yet auto-repeat
 * Jog buttons are yet not linked to keyboards keys
-* No expansion yet of Canned Drill cycles or M06 Tool Change
 * Built on .Net 4.5 which will potentially impact Mono users
-* No visualizer (yet?) Best to be watching the cutter doing its work but I know it is a useful feature
+* No expansion yet of Canned Drill cycles or M06 Tool Change
 
-The last 3 items above are planned, and are part of the reason for writing Grbl-Panel.
+The last item above is planned, and is part of the reason for writing Grbl-Panel.
 
 
