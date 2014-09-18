@@ -29,6 +29,4 @@ In no particular order this is a list of possible/probable enhancements:
 * Canned Cycles, specifically drilling G81/2/3. This is what sparked the creation of Grbl Panel
 * Tool Change, M06. This involves moving the tool to some location and then doing a G38.2 probe
 * Support .Net 3.5 or whatever flavour helps using Grbl Panel on Mono
-* Provide multiple sets of Work Offset tables, e.g. to support parts that you make often using tooling jigs
 * Hook the Jog buttons to keyboard arrows and Pg Up/Dn
-* Add a visualizer, hopefully re-using an existing implementation
