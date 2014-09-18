@@ -15,6 +15,7 @@
 * Does not yet support Grbl's Advanced Send protocol
 * Jog buttons are yet not linked to keyboards keys
 * Built on .Net 4.5 which will potentially impact Mono users
+* No convenient way to configure Grbl
 * No expansion yet of Canned Drill cycles or M06 Tool Change
 
 The last item above is planned, and is part of the reason for writing Grbl-Panel.
