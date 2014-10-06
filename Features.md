@@ -2,7 +2,7 @@
 * Provides Jog using distance and feed settings via radio buttons
 * Strips whitespace from Gcode blocks
 * Provides configurable gcode blocks for Jog and Workspace 0
-* Provides individual 0 set buttons for each Workspace Axis
+* Provides individual 0 set buttons for each WorkOffset Axis
 * Sub panels and controls interlock to prevent inadvertent sending of commands
 * Provides setting, retrieving (from Grbl), loading and saving Work Offsets
 * Provides key repeat for Jogging with configurable repeat rate
