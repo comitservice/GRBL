@@ -1,6 +1,6 @@
 # The Settings Tab
 
-This page has several logical groupings of settings that you can use to alter GrblPanel's behaviour.
+This page has several logical groupings of settings that you can use to alter GrblPanel's or Grbl's behaviour.
 
 ## GrbL Settings
 This section reflects Grbl's settings. GrblPanel populates this automatically after a successful connection to Grbl. You can change settings by clicking on a Value, altering the value and then double-click to send the value to Grbl.
