@@ -29,4 +29,4 @@ In no particular order this is a list of possible/probable enhancements:
 * Canned Cycles, specifically drilling G81/2/3. This is what sparked the creation of Grbl Panel
 * Allow jogging after a M0 (pause) or M6 (tool change) is to be sent to Grbl
 * Tool Change, M06. This involves moving the tool to some location and then doing a G38.2 probe
-* Support .Net 3.5 or whatever flavour helps using Grbl Panel on Mono
+* Finish support .Net 3.5 (serialio read() rewrite) to use GrblPanel on Mono
