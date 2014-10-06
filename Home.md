@@ -19,7 +19,7 @@ Grbl is the basis for many CNC machines. It is the basis of many controllers. It
 Microsoft provides free, extremely well-documented professional quality tools. The visual development environment enabled me to build a fully functional Panel in less than a week of 9-5 effort. That is while learning the details of Delegates, cross thread calls from Serial IO to GUI, the many properties of the controls in use etc. The code presently targets .Net 4.5 which I realize might cause headaches for those wanting to run this with Mono or virtual machines such as Parallel. One of my Todo's is to revert back to .Net 3.5 which should provide less difficulty for Mono.
 
 ## Authors and Contributors
-The author is Gerrit Visser (@gerritv), a retired computer professional who has many interests and hobbies. One of those is machining which inevitably leads to CNC.
+The author is Gerrit Visser (@gerritv), a retired computer professional (both hardware and software) who has many interests and hobbies. One of those is machining which inevitably leads to CNC.
 
 ## Support or Contact
 For now the Issues Tracker is disabled. Once a few selected testers have blessed this initial version I will enable it. Ditto with source code, etc.
