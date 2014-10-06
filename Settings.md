@@ -9,7 +9,7 @@ For future proofing, there is a Last Grbl Param which should be set to the last 
 
 A refresh button lets you get the latest from Grbl
 
-* In the next sections, you change values by editing a box and pressing Return key or double-clicking the text box. The Refresh buttons when clicked will ensure that your new settings take effect immediately. All these settings are saved on program exit in your User data directory. (They do not overwrite the GrblPanel.xml file in your program directory so your custom settings should survive program updates.)
+_In the next sections, you change values by editing a box and pressing Return key or double-clicking the text box. The Refresh buttons when clicked will ensure that your new settings take effect immediately. All these settings are saved on program exit in your User data directory. (They do not overwrite the GrblPanel.xml file in your program directory so your custom settings should survive program updates.)_
 
 ## Position
 
