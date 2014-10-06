@@ -6,6 +6,7 @@
 * Sub panels and controls interlock to prevent inadvertent sending of commands
 * Provides setting, retrieving (from Grbl), loading and saving Work Offsets
 * Provides key repeat for Jogging with configurable repeat rate
+* Provides visible State and Status indications
 * Settings and preferences are persistent between executions
 * Makes no changes to Gcode
 * Built on .Net 3.5 which will assist Mono users
