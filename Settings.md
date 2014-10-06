@@ -16,7 +16,7 @@ A refresh button lets you get the latest from Grbl
 This section provides you with settings that alter what commands are used for the various Position related actions. 
 
 You might want to modify the G28 and G30 commands by adding X, Y and/or Z parameters to indicate where you want the Controlled Point to move to before going to the final destination. 
-* Be careful using Z0 for G28/G30as it is often the point where the tip of the tool touches your work surface.
+* Be careful using Z0 for G28/G30 as it is often the point where the tip of the tool touches your work surface.
 
 ## Misc
 This section provides various settings to control GrblPanel's behaviour.
