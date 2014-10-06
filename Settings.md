@@ -39,3 +39,4 @@ G30 is similar, but it is typically used to set an absolute location for Tool Ch
 Both G28 and G30 are executed from the Interface tab using Goto Spcl Posn1/2. These operations take place at high speed, unlike Homing Cycle. Think of Spcl Posn1 as a soft home operation. Please do consider carefully with both these commands that you need to send Z axis to somewhere safe, i.e. above your work piece and clamps. If you want, that value can be set in the Position block on this Settings page.
 
 
+![](https://github.com/gerritv/Grbl-Panel/blob/master/GrblPanelSettings.JPG)
