@@ -32,7 +32,7 @@ The Enable Keyboard arrows option enables the use of the usual arrow keys as wel
 
 ## Offsets(2)
 
-G28 and G30 are 2 location settings that are very useful. Typically G28 is set after you Home Cycle and back off from the Limit switches. Click Set and the absolute machine positions at the time are recorded in EEProm. In other words you don't need to do this every time you power up your machine.
+G28 and G30 are 2 very useful location settings . Typically G28 should be set after you Home Cycle and back off from the Limit switches. Click Set and the absolute machine positions at the time are recorded in EEProm. In other words you don't need to do this every time you power up your machine.
 
 G30 is similar, but it is typically used to set an absolute location for Tool Changes. Jog to that location, go back to Settings tab and click Set for G30.
 
