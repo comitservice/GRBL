@@ -11,7 +11,7 @@ A typical work flow helps to understand Grbl-Panel and CNC machining in general.
 * Mount your work piece to the table. Do this in a way that the cutting tool will not interfere with clamps, etc.
 * Jog X axis to where your Work 0 location is. Click 0 to right of Work X axis display.
 * Repeat with Y and Z axes.
-* You can now load and run your program, it should have a G54 near the top. If not, use MDI to enter it. This ensures that you are using the Work offsets set above. (Programs should generally be written relative to Work 0, not absolute positions.)
+* You can now load and run your program, it should have a G54 near the top. If not, use State section to enter it. This ensures that you are using the Work offsets set above. (Programs should generally be written relative to Work 0, not absolute positions.)
 
 # Jogging
 Jogging is a manual operation that moves the spindle (or the table relative to the spindle). You jog to set Work 0 before running a program.
