@@ -9,11 +9,11 @@ Grbl needs a separate application, something to feed it gcode from a file, provi
 ### General Overview
 A typical milling work setup requires jogging to where work 0 is located. This often requires 'touching off' on each axis in turn. Hence there are 0 buttons beside each Work axis. Once you are running a GCode file, you should not be able to jog or send manual commands. These are interlocked. When an Alarm condition is detected by Grbl, the Gcode file run is stopped.
 
-Controls and displays are grouped into sub panels. These get enabled/disabled depending on what the Panel is doing. A Settings tab provides you with some editable fields that alter the operation of the panel or what it sends to Grbl. There are additional tabs, e.g. Offsets and Tools which are presently not implemented.
+Controls and displays are grouped into sub panels. These get enabled/disabled depending on what the Panel is doing. A Settings tab provides you with some editable fields that alter the operation of the panel or what it sends to Grbl. There are additional tabs, e.g. Tools which are presently not implemented.
 
 
 ### Grbl
-Grbl is the basis for many CNC machines. It is the basis of many controllers. It's enhancements are managed in a controlled manner, leading Grbl to be a stable and predictable high performance GCode interpreter. its feature set is strictly limited, in part due to the constraints of the Atmel 328P that it runs on.  Currently maintained by Sonny Jeon (@chamnit). His support and feedback helped focus the development of Grbl-Panel. The excellent Grbl wiki also made the job of coding the interface much simpler.
+Grbl is the basis for many CNC machines. It is the basis of many controllers. It's enhancements are managed in a controlled manner, leading Grbl to be a stable and predictable high performance GCode interpreter. its feature set is strictly limited, in part due to the constraints of the Atmel 328P that it runs on.  Currently maintained by Sonny Jeon (@chamnit). His support and feedback helped focus the development of Grbl-Panel. The excellent Grbl wiki also made the job of coding the interface much simpler. Others who helped are listed in the Help/About/Credits
 
 ### Why VB.Net and Visual Studio
 Microsoft provides free, extremely well-documented professional quality tools. The visual development environment enabled me to build a fully functional Panel in less than a week of 9-5 effort. That is while learning the details of Delegates, cross thread calls from Serial IO to GUI, the many properties of the controls in use etc. The code presently targets .Net 4.5 which I realize might cause headaches for those wanting to run this with Mono or virtual machines such as Parallel. One of my Todo's is to revert back to .Net 3.5 which should provide less difficulty for Mono.
@@ -27,6 +27,6 @@ For now the Issues Tracker is disabled. Once a few selected testers have blessed
 ## TODO
 In no particular order this is a list of possible/probable enhancements:
 * Canned Cycles, specifically drilling G81/2/3. This is what sparked the creation of Grbl Panel
+* Allow jogging after a M0 (pause) or M6 (tool change) is to be sent to Grbl
 * Tool Change, M06. This involves moving the tool to some location and then doing a G38.2 probe
 * Support .Net 3.5 or whatever flavour helps using Grbl Panel on Mono
-* Hook the Jog buttons to keyboard arrows and Pg Up/Dn
