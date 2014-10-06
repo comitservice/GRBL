@@ -14,7 +14,7 @@
 ## Limitations
 * Does not change Gcode, e.g. no trimming of decimal places
 * Does not remove unsupported Gcodes
-* Does not yet support Grbl's Advanced Send protocol
+* Does not yet support Grbl's Advanced Send protocol (this is In Progress with a rewrite of GrblGcode.vb)
 * Mono requires GrblPanel to replace its serial receive code, this is planned
 * No expansion yet of Canned Drill cycles or M06 Tool Change
 
