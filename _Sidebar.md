@@ -2,3 +2,4 @@
 [[Features/Limitations|Features]]<BR>
 [[Overview|Overview]]<BR>
 [[Settings Tab|Settings]]<BR>
+[[Releases|Releases]]<BR>
