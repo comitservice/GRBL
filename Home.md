@@ -16,13 +16,13 @@ Controls and displays are grouped into sub panels. These get enabled/disabled de
 Grbl is the basis for many CNC machines. It is the basis of many controllers. It's enhancements are managed in a controlled manner, leading Grbl to be a stable and predictable high performance GCode interpreter. its feature set is strictly limited, in part due to the constraints of the Atmel 328P that it runs on.  Currently maintained by Sonny Jeon (@chamnit). His support and feedback helped focus the development of Grbl-Panel. The excellent Grbl wiki also made the job of coding the interface much simpler. Others who helped are listed in the Help/About/Credits
 
 ### Why VB.Net and Visual Studio
-Microsoft provides free, extremely well-documented professional quality tools. The visual development environment enabled me to build a fully functional Panel in less than a week of 9-5 effort. That is while learning the details of Delegates, cross thread calls from Serial IO to GUI, the many properties of the controls in use etc. The code presently targets .Net 4.5 which I realize might cause headaches for those wanting to run this with Mono or virtual machines such as Parallel. One of my Todo's is to revert back to .Net 3.5 which should provide less difficulty for Mono.
+Microsoft provides free, extremely well-documented professional quality tools. The visual development environment enabled me to build a fully functional Panel in less than a week of 9-5 effort. That is while learning the details of Delegates, cross thread calls from Serial IO to GUI, the many properties of the controls in use etc.
 
 ## Authors and Contributors
 The author is Gerrit Visser (@gerritv), a retired computer professional (both hardware and software) who has many interests and hobbies. One of those is machining which inevitably leads to CNC.
 
 ## Support or Contact
-For now the Issues Tracker is disabled. Once a few selected testers have blessed this initial version I will enable it. Ditto with source code, etc.
+Please use the Issues tracker to report problems or suggest enhancements.
 
 ## TODO
 In no particular order this is a list of possible/probable enhancements:
