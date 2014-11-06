@@ -2,4 +2,5 @@
 [[Features/Limitations|Features]]<BR>
 [[Overview|Overview]]<BR>
 [[Settings Tab|Settings]]<BR>
+[[Using Grbl-Panel|Using-Grbl-Panel]]<BR>
 [[Releases|Releases]]<BR>
