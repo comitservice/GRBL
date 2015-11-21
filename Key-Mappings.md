@@ -9,4 +9,7 @@ Page up and Page Down for Z axis
 \- Decreases Distance (moves down the list)  
 For Feed Rate and Distance the increase or decrease does not wrap around to prevent sudden lurches in movement.
 
+A resets all axis to 0  
+X, Y and Z reset their respective axis to 0
+
 These mappings match those of UGS
