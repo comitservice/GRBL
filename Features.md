@@ -12,7 +12,7 @@
 * Built on .Net 3.5 which will assist Mono users
 * Live Status monitoring
 * Supports key mapping for x, y, z positioning as well as X,Y,Z work reset and altering Distance and Feed Rate
-* Support rewind on gcode on detection of M30
+* Support rewind of gcode on detection of M30
 
 ## Limitations
 * Does not change Gcode, e.g. no trimming of decimal places
