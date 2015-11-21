@@ -17,7 +17,7 @@
 ## Limitations
 * Does not change Gcode, e.g. no trimming of decimal places
 * Does not remove unsupported Gcodes
-* Does not yet support Grbl's Advanced Send protocol (this is In Progress with a rewrite of GrblGcode.vb)
+* Does not yet support Grbl's Advanced Send protocol. Due to the issues raised in the Char Counting protocol (https://github.com/grbl/grbl/issues/845) I will not be implementing this protocol.
 * No expansion yet of Canned Drill cycles or M06 Tool Change
 
 The last item above is planned, and is part of the reason for writing Grbl-Panel.
