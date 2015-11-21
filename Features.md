@@ -11,12 +11,13 @@
 * Makes no changes to Gcode
 * Built on .Net 3.5 which will assist Mono users
 * Live Status monitoring
+* Supports key mapping for x, y, z positioning as well as X,Y,Z work reset and altering Distance and Feed Rate
+* Support rewind on gcode on detection of M30
 
 ## Limitations
 * Does not change Gcode, e.g. no trimming of decimal places
 * Does not remove unsupported Gcodes
 * Does not yet support Grbl's Advanced Send protocol (this is In Progress with a rewrite of GrblGcode.vb)
-* Mono requires GrblPanel to replace its serial receive code, this is planned
 * No expansion yet of Canned Drill cycles or M06 Tool Change
 
 The last item above is planned, and is part of the reason for writing Grbl-Panel.
